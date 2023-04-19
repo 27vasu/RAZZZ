@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url("photogirl.jpg");
+        }
+
+        .container {
+            background-image: url("humanimg.jpg");
+            background-color: white;
+            color: white;
+            height: 600px;
+            width: 500px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 40px;
+            left: 495px;
+
+        }
+
+        .head {
+            height: 50px;
+            width: 40px;
+            display: flex;
+            position: relative;
+            bottom: 256px;
+            left: 120px;
+
+        }
+
+        .box1 {
+            position: relative;
+            top: 270px;
+            right: 100px;
+            /* background-color: blue; */
+        }
+
+        .login {
+            /* margin: 0px 20px; */
+            padding: 50px 100px;
+        }
+
+        .btn {
+            padding: 10px 45px;
+            margin: 5px -5px;
+            border-radius: 4px;
+            background-color: black;
+            border: 2px solid white;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="head">
+            <img src="Twitter.png" alt="img">
+        </div>
+        <div class="text">
+            <h1>Sign in to Twitter</h1><br><br>
+            <label for="text">Enter : </label>
+            <input type="text" placeholder="username,phone or email" name="text"
+                style="padding: 10px 40px;margin: 0px 23px; border-radius: 5px;"><br><br>
+            <label for="text">Password : </label>
+            <input type="text" placeholder="Enter your password" name="text"
+                style="padding: 10px 40px;border-radius: 5px;">
+            <div class="login">
+                <button class="btn" name="login">Login</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
